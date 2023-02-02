@@ -1,0 +1,10 @@
+---
+- name: Setup Apache Web Server
+  hosts: all
+  roles:
+     - deploy
+  become: true
+  become_method: sudo
+
+
+

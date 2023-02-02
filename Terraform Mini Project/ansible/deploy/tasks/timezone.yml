@@ -1,0 +1,4 @@
+# set timezone to Africa/Lagos
+- name: set timezone to Africa/Lagos
+  timezone:
+    name: Africa/Lagos

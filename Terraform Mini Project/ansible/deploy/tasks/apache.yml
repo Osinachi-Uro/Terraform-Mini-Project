@@ -1,0 +1,11 @@
+#installing apache2
+- name: Update Repo
+  package: update_cache=yes
+
+- name: Install Apache Server
+  package:
+    name: apache2
+    state: present
+
+- name: Update Repo
+  package: update_cache=yes
