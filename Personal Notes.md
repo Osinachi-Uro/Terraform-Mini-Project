@@ -10,3 +10,6 @@ ansible-playbook -i host-inventory book.yml -u ubuntu --check
 ```
 ansible-playbook -i host-inventory book.yml -u ubuntu
 ```
+To unstage a staged file befor commit use
+```
+git rm --cached <file>
